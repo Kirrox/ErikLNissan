@@ -5,22 +5,23 @@ body {
 h1,h2,h3,h4,h5,h6{
 	font-family: Georgia;
 	font-style: none; /* Cursive */
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
-	text-align: center;
+	text-shadow: 5px 5px 6px rgba(0,0,0,10); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+	text-align: left;
 }
 
 h1{
 	font-family: Georgia;
 	font-style: none; /* Cursive */
-	text-shadow: 1px 1px 2px rgba(0,0,0,1); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+	text-shadow: 2px 2px 3px rgba(0,0,0,1); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
 	text-align: center;
 	color: red;
 
 }
 
 nav{
-	width: 80%;
-	height: 80px;
+	float: left;
+	width: 200px;
+	height: 100px;
 	margin: 10px auto 0px auto;
 }
 
@@ -32,9 +33,39 @@ nav a:hover{ /* How it looks when you hover with muose */
 	color:red;
 }
 
-.bakgrund1{
-	background-image: url("http://wallpapercave.com/wp/2u5OrmL.png");
-    background-color: #cccccc;
+.bakgrund1 {
+	background: url("http://wallpapercave.com/wp/2u5OrmL.png") no-repeat center center fixed;
+	background-color: black
+}
+
+.bakgrund2 {
+	background: url("http://i.imgur.com/JugaQY0.jpg?1") no-repeat center center fixed;
+	background-color: black
+}
+
+.bakgrund3 {
+	background: url("http://i.imgur.com/hd4miP7.jpg?1") no-repeat center center fixed;
+	background-color: black
+}
+
+.bakgrund4 { 
+	background: url("http://i.imgur.com/G1X31xn.jpg") no-repeat center center fixed;
+	background-color: black
+}
+
+.bakgrund5 {
+	background: url("http://i.imgur.com/F1up6hZ.jpg?1") no-repeat center center fixed;
+	background-color: black
+}
+
+.bakgrund6 {
+	background: url("http://i.imgur.com/DfQ7RJp.jpg?1") no-repeat center center fixed;
+	background-color: black;
+}
+
+.bakgrund7 {
+	background: url("http://i.imgur.com/bNPcOSy.jpg") no-repeat center center fixed;
+	background-color: black;
 }
 
 #current{ 
@@ -44,14 +75,60 @@ nav a:hover{ /* How it looks when you hover with muose */
 .navLink{
 	position:relative;
 	float:left;
-	width:15%;	
-	height:76px;
+	width:150px;	
+	height:50px;
+	margin: 1px;
+	padding: 1px;
+	top: 30px;
 }
 
 .container{
 	position:relative;
-	width: 80%;
+	width: 70%;
 	margin: 0px auto 0px auto; /* top right bottom left */
-	border: 5px white solid; /* border-width border-color border-style*/
-	color: white
+	border: 0px white solid; /* border-width border-color border-style*/
+	color: white;
+	top: 100px;
+}
+
+
+
+.Logo{
+	position: relative;
+	top: -480px;
+}
+
+.yin-yang {
+	width: 96px;
+	height: 48px;
+	background: #eee;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px 2px 50px 2px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.yin-yang:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background: #eee;
+	border: 18px solid black;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+}
+
+.yin-yang:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: black;
+	border: 18px solid #eee;
+	border-radius:100%;
+	width: 12px;
+	height: 12px;
 }
